@@ -36,6 +36,34 @@
   });
 
   // owlCarousel
+  $(".Gallery_wrp").owlCarousel({
+    loop: false,
+    margin: 10,
+    items: 2,
+    stagePadding: 20,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ],
+    nav: false,
+    dots: false
+  });
+
+  // owlCarousel
+  $(".Products_wrp").owlCarousel({
+    loop: false,
+    margin: 10,
+    items: 2,
+    stagePadding: 20,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ],
+    nav: false,
+    dots: false
+  });
+
+  // owlCarousel
   $(".brand-active").owlCarousel({
     loop: true,
     margin: 30,

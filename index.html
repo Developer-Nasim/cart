@@ -79,14 +79,14 @@
                         <div class="Services_content">
                             <h4>Our Services</h4>
                             <div class="services_wrp owl-carousel">
-                                <a href="#" class="services_blk">
+                                <a href="#" class="services_blk" data-bs-toggle="modal" data-bs-target="#ServiceModal">
                                     <h5>Web Design</h5>
                                     <i>
                                         <img src="assets/img/svc1.png" alt="">
                                     </i>
                                     <p>Lorem ipsum dolor sit amet, conse</p>
                                 </a>
-                                <a href="#" class="services_blk">
+                                <a href="#" class="services_blk" data-bs-toggle="modal" data-bs-target="#ServiceModal">
                                     <h5>Web
                                         Development</h5>
                                     <i>
@@ -94,14 +94,14 @@
                                     </i>
                                     <p>Lorem ipsum dolor sit amet, conse</p>
                                 </a>
-                                <a href="#" class="services_blk">
+                                <a href="#" class="services_blk" data-bs-toggle="modal" data-bs-target="#ServiceModal">
                                     <h5>Web Design</h5>
                                     <i>
                                         <img src="assets/img/svc1.png" alt="">
                                     </i>
                                     <p>Lorem ipsum dolor sit amet, conse</p>
                                 </a>
-                                <a href="#" class="services_blk">
+                                <a href="#" class="services_blk" data-bs-toggle="modal" data-bs-target="#ServiceModal">
                                     <h5>Web
                                         Development</h5>
                                     <i>
@@ -220,18 +220,18 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h4>Gallery</h4>
-                        <div class="Gallery_wrp">
+                        <div class="Gallery_wrp owl-carousel">
                             <div class="Gallery_blk">
                                 <img src="assets/img/Gallery1.png" alt="">
-                                <a href="#"><i class="fas fa-play"></i></a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-play"></i></a>
                             </div>
                             <div class="Gallery_blk">
                                 <img src="assets/img/Gallery2.png" alt="">
-                                <a href="#"><i class="fas fa-play"></i></a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-play"></i></a>
                             </div>
                             <div class="Gallery_blk">
                                 <img src="assets/img/Gallery1.png" alt="">
-                                <a href="#"><i class="fas fa-play"></i></a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fas fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -249,8 +249,19 @@
                     <div class="col-lg-12">
                         <div class="Services_content">
                             <h4>Our Services</h4>
-                            <div class="services_wrp">
-                                <div class="services_blk active" >
+                            <div class=" Products_wrp owl-carousel">
+                                <div class="services_blk active" data-bs-toggle="modal" data-bs-target="#ProductModal">
+                                    <h5>Products</h5>
+                                    <i>
+                                        <img src="assets/img/svc1.png" alt="">
+                                    </i>
+                                    <p>Lorem ipsum dolor sit amet, conse</p>
+                                    <div class="pd_btm">
+                                        <a href="#">Buy Now</a>
+                                        <span>$59</span>
+                                    </div>
+                                </div>
+                                <div class="services_blk" data-bs-toggle="modal" data-bs-target="#ProductModal">
                                     <h5>Web Design</h5>
                                     <i>
                                         <img src="assets/img/svc1.png" alt="">
@@ -261,18 +272,7 @@
                                         <span>$59</span>
                                     </div>
                                 </div>
-                                <div class="services_blk">
-                                    <h5>Web Design</h5>
-                                    <i>
-                                        <img src="assets/img/svc1.png" alt="">
-                                    </i>
-                                    <p>Lorem ipsum dolor sit amet, conse</p>
-                                    <div class="pd_btm">
-                                        <a href="#">Buy Now</a>
-                                        <span>$59</span>
-                                    </div>
-                                </div>
-                                <div class="services_blk">
+                                <div class="services_blk" data-bs-toggle="modal" data-bs-target="#ProductModal">
                                     <h5>Web Design</h5>
                                     <i>
                                         <img src="assets/img/svc1.png" alt="">
@@ -305,28 +305,30 @@
                                     <i>
                                         <img src="assets/img/blog-1.png" alt="">
                                     </i>
-                                    <div class="blog__text">
+                                    <a href="#" class="blog__text" data-bs-toggle="modal" data-bs-target="#BlogModal">
                                         <h6>The smart business catd is the easiest</h6>
-                                        <a href="#"><i class="far fa-chevron-right"></i></a>
-                                    </div>
+                                        <span><i class="far fa-chevron-right"></i></span>
+                                    </a>
                                 </li>
+
                                 <li>
                                     <i>
-                                        <img src="assets/img/blog-1.png" alt="">
+                                        <img src="assets/img/blog-2.png" alt="">
                                     </i>
-                                    <div class="blog__text">
+                                    <a href="#" class="blog__text" data-bs-toggle="modal" data-bs-target="#BlogModal">
                                         <h6>The smart business catd is the easiest</h6>
-                                        <a href="#"><i class="far fa-chevron-right"></i></a>
-                                    </div>
+                                        <span><i class="far fa-chevron-right"></i></span>
+                                    </a>
                                 </li>
+
                                 <li>
                                     <i>
-                                        <img src="assets/img/blog-1.png" alt="">
+                                        <img src="assets/img/blog-3.png" alt="">
                                     </i>
-                                    <div class="blog__text">
+                                    <a href="#" class="blog__text" data-bs-toggle="modal" data-bs-target="#BlogModal">
                                         <h6>The smart business catd is the easiest</h6>
-                                        <a href="#"><i class="far fa-chevron-right"></i></a>
-                                    </div>
+                                        <span><i class="far fa-chevron-right"></i></span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -492,8 +494,8 @@
                                 <a href="#" class="thm_btn active">Send Message</a>
                             </div>
                             <div class="contact_btn__wrp">
-                                <a href="#" class="thm_btn bdr">Download My QR Code</a>
-                                <a href="#" class="thm_btn bdr"><i class="fas fa-share-alt"></i> Share</a>
+                                <a href="#" class="thm_btn bdr DownloadC">Download My QR Code</a>
+                                <a href="#" class="thm_btn bdr ShareC"><i class="fas fa-share-alt"></i> Share</a>
                             </div>
                         </div>
                     </div>
@@ -510,7 +512,109 @@
 
     </main>
 
-    
+  
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog container modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Video</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--Service Modal -->
+    <div class="modal fade" id="ServiceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog container modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Service</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal_sv">
+                        <div href="#" class="services_blk " >
+                            <h5>Web Design</h5>
+                            <i>
+                                <img src="assets/img/svc1.png" alt="">
+                            </i>
+                            <p class="mt-2">
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--Product Modal -->
+    <div class="modal fade" id="ProductModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog container modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal_sv">
+                        <div href="#" class="services_blk " >
+                            <h5>Web Design</h5>
+                            <i>
+                                <img src="assets/img/svc1.png" alt="">
+                            </i>
+                            <p class="mt-2">
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+
+                            </p>
+                            <div class="pd_btm">
+                                <a href="#">Buy Now</a>
+                                <span>$59</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--Blog Modal -->
+    <div class="modal fade" id="BlogModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog container modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Blog</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal_sv">
+                        <div href="#" class="services_blk blog_mb mx_w100" >
+                            <i class="mb-3">
+                                <img src="assets/img/cover.png" alt="">
+                            </i>
+                            <h6>The smart business catd is the easiest</h6>
+                            <p class="mt-2">
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+                                Lorem ipsum dolor sit amet, conse ipsum dolor sit amet, conse
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 		<!-- JS here --> 
         <script src="assets/js/jquery-3.4.1.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
