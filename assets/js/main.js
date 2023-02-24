@@ -101,11 +101,14 @@
     dots: false,
     responsive: {
       0: {
+        items: 4
+      },
+      350: {
         items: 5
       },
-      380: {
+      390: {
         items: 6
-      },
+      }
     }
   });
 
