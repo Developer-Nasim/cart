@@ -21,11 +21,20 @@
     dots: false
   });
 
+  // owlCarousel
+  $(".social_Slider").owlCarousel({
+    loop: false,
+    margin: 10,
+    items: 5,
+    nav: false,
+    dots: false
+  });
+
 
   // owlCarousel
   $(".Testimonial_Slider").owlCarousel({
     loop: true,
-    margin: 0,
+    margin: 20,
     items: 1,
     navText: [
       '<i class="fa fa-angle-left"></i>',

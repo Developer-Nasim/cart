@@ -114,7 +114,6 @@ a.thm_btn.active {
 /* default-css END 
 ================================== */
 main {
-  width: max-content;
   margin: auto;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -168,6 +167,12 @@ main {
   margin-bottom: 2rem;
 }
 
+.profile-btn-area a.thm_btn {
+    width: 48%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .profile-btn-area a img {
     margin-right: 10px;
 }
@@ -184,6 +189,19 @@ main {
     font-size: 14px;
 }
 .social_link {margin-bottom: 2rem;}
+
+.social_link.sc_modal {
+    margin-bottom: 0;
+}
+
+.sc_modal ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sc_modal ul li {
+    margin-bottom: 14px;
+}
 
 .social_link ul {
     display: flex;
@@ -206,15 +224,28 @@ main {
 .social_link ul li a:hover {
     color: var(--thmColor);
 }
-.address_info {border: 0.5px solid #8E8989;border-left: none;border-right: none;padding: 2rem 0;}
+.address_info {border: 0.5px solid #8E8989;border-left: none;border-right: none;padding: 2rem 0 0;}
 
 .address_info ul li {
     padding-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     position: relative;
     margin-bottom: 20px;
     letter-spacing: 0.06em;
     font-size: 15px;
+}
+
+.address_info ul li:last-child {
+    margin-bottom: 10px;
+}
+
+.address_info ul li a {
+    display: flex;
+    align-items: baseline;
+}
+
+.address_info ul li:last-child:after {
+    display: none;
 }
 
 .address_info ul li:after {
@@ -231,6 +262,13 @@ main {
     width: 20px;
     text-align: center;
     margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 /*============ Area End =============*/
@@ -241,7 +279,7 @@ main {
 .Services_content {overflow: hidden;}
 
 
-.services_wrp .owl-stage, .Gallery_wrp .owl-stage,.Products_wrp .owl-stage {
+.services_wrp .owl-stage, .Gallery_wrp .owl-stage, .Products_wrp .owl-stage, .social_Slider .owl-stage {
     padding-left: 0 !important;
 }
 .services_blk {background: #FFFFFF;border: 1px solid #E8E8E8;border-radius: 14.5198px;max-width: 172px;padding: 1rem;flex-shrink: 0;display: inline-block;}
@@ -312,6 +350,10 @@ main {
     width: 100%;
 }
 .qut__left {position: absolute;width: 25px;height: 25px;background: red;border-radius: 50%;display: flex;align-items: center;justify-content: center;left: -12px;}
+
+.qut__left img {
+    object-fit: none;
+}
 .qut__right {position: absolute;right: 17%;z-index: 0;}
 .Test__text {padding-top: 10px;}
 
