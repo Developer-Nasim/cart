@@ -17,10 +17,10 @@
     dots: false,
     responsive: {
       0: {
-        items: 2,
-        stagePadding: 0
+        items: 1,
+        stagePadding: 50
       },
-      390: {
+      370: {
         items: 2
       }
     }
@@ -29,7 +29,7 @@
   // owlCarousel
   $(".social_Slider").owlCarousel({
     loop: false,
-    margin: 10,
+    margin: 20,
     items: 5,
     nav: false,
     dots: false
@@ -74,8 +74,12 @@
     dots: false,
     responsive: {
       0: {
-        items: 2,
-        stagePadding: 0
+        items: 1,
+        stagePadding: 60
+      },
+      350: {
+        items: 1,
+        stagePadding: 80
       },
       390: {
         items: 2
@@ -88,6 +92,7 @@
     loop: false,
     margin: 15,
     items: 6,
+    mouseDrag:false,
     navText: [
       '<i class="far fa-chevron-left"></i>',
       '<i class="far fa-chevron-right"></i>'
