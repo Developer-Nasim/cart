@@ -13,12 +13,17 @@
     margin: 10,
     items: 2,
     stagePadding: 20,
-    navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-    ],
     nav: false,
-    dots: false
+    dots: false,
+    responsive: {
+      0: {
+        items: 2,
+        stagePadding: 0
+      },
+      390: {
+        items: 2
+      }
+    }
   });
 
   // owlCarousel
@@ -36,10 +41,6 @@
     loop: true,
     margin: 20,
     items: 1,
-    navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-    ],
     nav: false,
     dots: true
   });
@@ -50,12 +51,17 @@
     margin: 10,
     items: 2,
     stagePadding: 20,
-    navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-    ],
     nav: false,
-    dots: false
+    dots: false,
+    responsive: {
+      0: {
+        items: 2,
+        stagePadding: 0
+      },
+      390: {
+        items: 2
+      }
+    }
   });
 
   // owlCarousel
@@ -64,37 +70,41 @@
     margin: 10,
     items: 2,
     stagePadding: 20,
-    navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-    ],
-    nav: false,
-    dots: false
-  });
-
-  // owlCarousel
-  $(".brand-active").owlCarousel({
-    loop: true,
-    margin: 30,
-    items: 6,
-    navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-    ],
     nav: false,
     dots: false,
     responsive: {
       0: {
+        items: 2,
+        stagePadding: 0
+      },
+      390: {
         items: 2
-      },
-      767: {
-        items: 3
-      },
-      992: {
-        items: 6
       }
     }
   });
 
- 
+  // owlCarousel
+  $(".app_slider").owlCarousel({
+    loop: false,
+    margin: 15,
+    items: 6,
+    navText: [
+      '<i class="far fa-chevron-left"></i>',
+      '<i class="far fa-chevron-right"></i>'
+    ],
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 5
+      },
+      380: {
+        items: 6
+      },
+    }
+  });
+
+
+
+  $('select').niceSelect();
 })(jQuery);
