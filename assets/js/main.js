@@ -29,12 +29,12 @@
   // owlCarousel
   $(".social_Slider").owlCarousel({
     loop: false,
-    margin: 30,
-    items: 4,
+    margin: 20,
+    items: 5,
     nav: true,
     dots: false,
     navText: [
-      '<i class="far fa-chevron-left d-none"></i>',
+      '<i class="far fa-chevron-left"></i>',
       '<i class="far fa-chevron-right"></i>'
     ],
   });

@@ -188,7 +188,7 @@ main {
     color: #444444;
     font-size: 14px;
 }
-.social_link {margin-bottom: 2rem;padding-right: 35px;}
+.social_link {margin-bottom: 2rem;}
 
 .social_link.sc_modal {
     margin-bottom: 0;
@@ -215,18 +215,7 @@ main {
 }
 
 .social_link .owl-next {
-    width: max-content;
-    background: #ffffff;
-    color: #fe594e;
-    font-size: 24px;
-    position: absolute;
-    right: -40px;
-    top: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 10px;
+
 }
 
 .social_link ul li a {
@@ -639,7 +628,7 @@ main {
 }
 .app_slider {margin: 20px 0;}
 
-.app_slider .owl-nav i {
+.app_slider .owl-nav i,.social_link .owl-nav i {
     width: 26px;
     height: 26px;
     background: #E6EFED;
@@ -657,7 +646,7 @@ main {
     color: #fff;
 }
 
-.app_slider .owl-nav {
+.app_slider .owl-nav, .social_link .owl-nav {
     display: flex;
     justify-content: space-between;
     max-width: 70px;
@@ -665,6 +654,10 @@ main {
     width: 100%;
     top: -53px;
     right: 0;
+}
+
+.social_link .owl-nav {
+    top: -40px;
 }
 .app_slider_blk label {background: #FFFFFF;border: 1px solid #E3F3F2;border-radius: 8px;display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;padding: 15px 12px;}
 
@@ -881,6 +874,7 @@ a.thm_btn.bdr.DownloadC {
     margin-bottom: 0;
     color: #777575;
     text-transform: uppercase;
+    cursor: pointer;
 }
 /*============Contect Area End =============*/
 .View_m a {
