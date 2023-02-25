@@ -201,9 +201,11 @@ main {
 
 .sc_modal ul li {
     font-size: 35px;
-    margin: 8px;
+    margin: 7px;
 }
-
+.sc_modal ul li img {
+    max-height: 38px;
+}
 .social_link ul {
     display: flex;
     justify-content: space-between;
@@ -651,8 +653,7 @@ main {
 }
 
 .app_slider .owl-nav i:hover {
-    background: #fe594e;
-    color: #;
+    background: #fe594e; 
     color: #fff;
 }
 
@@ -948,30 +949,31 @@ ul.ks-cboxtags li label::before {
     transition: transform .3s ease-in-out;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before,
+ul.ks-cboxtags li input[type="radio"]:checked + label::before {
     /* content: "\f00c"; */
     transform: rotate(-360deg);
     transition: transform .3s ease-in-out;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+ul.ks-cboxtags li input[type="checkbox"]:checked + label,
+ul.ks-cboxtags li input[type="radio"]:checked + label {
     border: 1px solid #fe594e;
     background-color: #fe594e;
     transition: all .2s;
 }
 
-.app_items ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+.app_items ul.ks-cboxtags li input[type="checkbox"]:checked + label,
+.app_items ul.ks-cboxtags li input[type="radio"]:checked + label {
     color: #fff;
 }
 
-ul.ks-cboxtags li input[type="checkbox"]:checked + label h6,ul.ks-cboxtags li input[type="checkbox"]:checked + label p {
+ul.ks-cboxtags li input[type="checkbox"]:checked + label h6,ul.ks-cboxtags li input[type="checkbox"]:checked + label p, 
+    ul.ks-cboxtags li input[type="radio"]:checked + label h6,ul.ks-cboxtags li input[type="radio"]:checked + label p {
     color: #fff;
-}
-
-ul.ks-cboxtags li input[type="checkbox"] {
-  display: absolute;
-}
-ul.ks-cboxtags li input[type="checkbox"] {
+} 
+ul.ks-cboxtags li input[type="checkbox"],
+ul.ks-cboxtags li input[type="radio"] {
   position: absolute;
   opacity: 0;
 }
@@ -992,6 +994,18 @@ ul.ks-cboxtags li input[type="checkbox"] {
     .app_items ul li {
         width: 100%;
     }
+    .QR-code_wrp img {
+        max-height: 100px;
+    }
+    .blog__text span { 
+        margin-top: -75px;
+    }
+
+
+
+
+
+
 
 }
     
