@@ -229,9 +229,8 @@
                     <div class="col-lg-12">
                         <h4>Gallery</h4>
                         <div class="Gallery_wrp owl-carousel">
-                            <div class="Gallery_blk">
+                            <div class="Gallery_blk" data-bs-toggle="modal" data-bs-target="#galleryImg">
                                 <img src="assets/img/Gallery1.png" alt="">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#galleryImg"><i class="fas fa-play"></i></a>
                             </div>
                             <div class="Gallery_blk">
                                 <img src="assets/img/Gallery2.png" alt="">
@@ -566,7 +565,7 @@
                 </div>
             </div>
             <div class="copyRight">
-                <p>COPYRIGHT © grill house ALL RIGHTS RESERVED.</p>
+                <p data-bs-toggle="modal" data-bs-target="#CopyRight">COPYRIGHT © grill house ALL RIGHTS RESERVED.</p>
                 <a href="#">*Term & Policy</a>
             </div>
         </section>
@@ -598,7 +597,7 @@
         <div class="modal-dialog container modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Video</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Image</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -763,6 +762,21 @@
                 <div class="modal_btn">
                     <a href="#" class="active">save</a>
                     <a href="#" class="" data-bs-dismiss="modal" aria-label="Close">discard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--Apontment Modal -->
+    <div class="modal fade" id="CopyRight" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog container modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Copy Right</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align: left;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, facere.</p>
                 </div>
             </div>
         </div>
